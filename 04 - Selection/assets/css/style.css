@@ -1,0 +1,9 @@
+code {
+    background-color: lightgray;
+}
+
+.exemplo::selection { /*quando selecionar o texto, muda de acordo com a estilização*/
+    background-color: aquamarine;
+    color: blue; 
+    text-decoration: line-through;
+}

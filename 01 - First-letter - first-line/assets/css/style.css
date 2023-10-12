@@ -1,0 +1,17 @@
+code {
+    background-color: lightgray;
+}
+
+/*
+h1::first-letter {
+    color: blue;
+    background-color: lightblue;                 first-letter
+    font-size: 30px;
+}
+*/
+
+p::first-line {
+    color: blue;
+    background-color: lightblue;
+    text-transform: uppercase;
+}

@@ -1,0 +1,13 @@
+code {
+    background-color: lightgray;
+}
+
+summary::marker {
+    content: "✯"; /*simbolo do summary pode ser trocado no content no site https://fsymbols.com/pt/*/
+    color: red; /*Muda o triangulo do summary*/
+}
+
+li::marker {
+    color: blueviolet;
+    content: "✯";
+}
